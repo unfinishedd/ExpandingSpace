@@ -18,5 +18,5 @@ public class BackgroundScript : MonoBehaviour
         RenderSettings.skybox.SetFloat("_Rotation", foo += 1 * Time.deltaTime);
         
     }
-   
+    
 }
