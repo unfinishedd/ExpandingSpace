@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(ball.velocity, Vector3.up), Time.deltaTime * _lerpSpeed);
         transform.position = ball.transform.position + Vector3.up * Mathf.Sin(Time.time);
     }
