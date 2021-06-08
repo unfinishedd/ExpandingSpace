@@ -12,5 +12,5 @@ public class CameraFollow : MonoBehaviour
         transform.position = player.transform.position + offset;
     }
 
-
+    
 }
