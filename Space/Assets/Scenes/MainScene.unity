@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.06551611, g: 0, b: 0.08116952, a: 1}
+  m_IndirectSpecularColor: {r: 0.06557233, g: 0, b: 0.08116228, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -643,9 +643,9 @@ GameObject:
   - component: {fileID: 1483114874}
   - component: {fileID: 1483114873}
   - component: {fileID: 1483114872}
+  - component: {fileID: 1483114871}
   - component: {fileID: 1483114876}
   - component: {fileID: 1483114875}
-  - component: {fileID: 1483114871}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b4e19c8469d3947a1e0e61f1b2043a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnspeed: 100
-  speed: 15
+  turnspeed: 50
+  speed: 20
 --- !u!135 &1483114876
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -757,5 +757,5 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 4
-  m_Center: {x: 0, y: 0.05, z: 2}
+  m_Radius: 3.457423
+  m_Center: {x: 0, y: 0.021603018, z: 2.1918564}
