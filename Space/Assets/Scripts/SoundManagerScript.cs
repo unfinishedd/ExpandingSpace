@@ -26,7 +26,6 @@ public class SoundManagerScript : MonoBehaviour
         
         StartCoroutine(StartMainMenuMusic());
         StartMainMenuMusic();
-
         
     }
 
@@ -38,8 +37,8 @@ public class SoundManagerScript : MonoBehaviour
     public void StopMusic()
     {
         bgmSource.Stop();
-        StartCoroutine(StartBGMMusic());
         GameStarted = true;
+
     }
     
 
