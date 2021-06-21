@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SoundManagerScript : MonoBehaviour
 {
@@ -11,27 +12,35 @@ public class SoundManagerScript : MonoBehaviour
 
     public float BGMVolume;
     public float SFXVolume;
+    public bool GameStarted = false;
 
     public AudioSource sfxSource;
     public AudioSource bgmSource;
+
+    public Button StartButton;
 
 
     private static SoundManagerScript SoundManager;
     void Start()
     {
-        StartCoroutine(StartBGMMusic());
-        StartBGMMusic();
+        
+        StartCoroutine(StartMainMenuMusic());
+        StartMainMenuMusic();
+        
     }
 
 
     void Update()
     {
-
+        
     }
     public void StopMusic()
     {
         bgmSource.Stop();
+        GameStarted = true;
+
     }
+    
 
     public void ChangeSFXVolume(float value)
     {
@@ -48,6 +57,18 @@ public class SoundManagerScript : MonoBehaviour
     public IEnumerator StartBGMMusic()
     {
         while (true)
+        {
+            AudioClip audioClip = BGM[Random.Range(0, BGM.Length)];
+            bgmSource.clip = audioClip;
+            bgmSource.volume = BGMVolume;
+            bgmSource.PlayOneShot(bgmSource.clip);
+            yield return new WaitForSeconds(audioClip.length);
+        }
+    }
+
+    public IEnumerator StartMainMenuMusic()
+    {
+        while ((true && GameStarted == false))
         {
             AudioClip audioClip = MainMenuBGM[Random.Range(0, MainMenuBGM.Length)];
             bgmSource.clip = audioClip;

@@ -48,7 +48,6 @@ public class SettingsMenuScript : MonoBehaviour
         SettingIsOpen = false;
         settingsCanvas.SetActive(false);
     }
-    
 
     public void BGMChanged(float value)
     {
@@ -98,4 +97,6 @@ public class SettingsMenuScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+
 }
