@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
-
-    public GameObject enableTargetObject;
-
-    void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            enableTargetObject.gameObject.SetActive(true);
-        }
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        
     }
 }
