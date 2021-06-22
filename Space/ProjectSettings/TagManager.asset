@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Slider_Area
   - Objects
+  - Item
+  - Player_
   layers:
   - Default
   - TransparentFX
