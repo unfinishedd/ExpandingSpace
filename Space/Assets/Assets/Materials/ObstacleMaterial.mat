@@ -10,7 +10,7 @@ Material:
   m_Name: ObstacleMaterial
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
-  m_LightmapFlags: 2
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,6 +73,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.8301887, g: 0, b: 0.77484286, a: 1}
-    - _EmissionColor: {r: 5.278032, g: 0, b: 2.6493652, a: 1}
+    - _Color: {r: 0.9245283, g: 0, b: 0.7468739, a: 1}
+    - _EmissionColor: {r: 2.572549, g: 0, b: 1.6941177, a: 1}
   m_BuildTextureStacks: []

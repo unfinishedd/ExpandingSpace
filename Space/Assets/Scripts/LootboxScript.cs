@@ -6,6 +6,7 @@ public class LootboxScript : MonoBehaviour
 {
     public float Timer = 5f;  // timer
     public MeshRenderer MR;
+    public MeshRenderer MR2;
     public BoxCollider BC;
     public bool isTouch = false;
     public bool isRepeat = false;
@@ -29,6 +30,7 @@ public class LootboxScript : MonoBehaviour
                 if (isRepeat == true)
                 {
                     MR.enabled = true;
+                    MR2.enabled = true;
                     BC.enabled = true;
                     isTouch = false;
                     const int timeoutRefresh = 3;
@@ -51,6 +53,7 @@ public class LootboxScript : MonoBehaviour
             isTouch = true;
             isRepeat = true;
             MR.enabled = false;
+            MR2.enabled = false;
             BC.enabled = true;
             HasItem = true;
         }

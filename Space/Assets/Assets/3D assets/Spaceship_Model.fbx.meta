@@ -3,7 +3,57 @@ guid: 95080a477330f4841b4b9b860106f23e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: b191159661c32e64d85d9f9cab7c6850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat.1
+    second: {fileID: 2100000, guid: 5e254f93984922446a87374c562daded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PAARS
+    second: {fileID: 2100000, guid: a35fc7f0a3d432e4eaad30d02ba77d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bleu
+    second: {fileID: 2100000, guid: ee273c6d23cc9834a952e8e542f90746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bleu_1
+    second: {fileID: 2100000, guid: 8859723aa93ca11479bf3a4fb3b5e5f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: boddy.1
+    second: {fileID: 2100000, guid: a075ccb4e0b5c2541ae223dcc16b341d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dark body
+    second: {fileID: 2100000, guid: 3a7cfff7d6e4e85468926d1ab106d253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: engin
+    second: {fileID: 2100000, guid: 37599a83730ab9145b84f7c34559240a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lezer
+    second: {fileID: 2100000, guid: 2499f2c7022f52d4395162e570dd6908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 2d0402255fa70b543a3e98d93925a405, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
