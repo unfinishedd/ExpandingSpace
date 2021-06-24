@@ -17,6 +17,7 @@ public class DeathBarrier : MonoBehaviour
     {
         //Player.transform.position = Startingpos;
         //m_Rigidbody.velocity = Vector3.zero;
+        FindObjectOfType<SoundManagerScript>().PlayDeathSounds();
         SceneManager.LoadScene("MainScene");
     }
 }

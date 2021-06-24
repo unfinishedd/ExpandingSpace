@@ -41,6 +41,7 @@ public class ObstacleScript : MonoBehaviour
     {
         //Player.transform.position = startingpos;
         //m_Rigidbody.velocity = Vector3.zero;
+        FindObjectOfType<SoundManagerScript>().PlayDeathSounds();
         SceneManager.LoadScene("MainScene");
 
     }

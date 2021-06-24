@@ -19,6 +19,7 @@ public class FinishLine : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        FindObjectOfType<SoundManagerScript>().PlayWinSound();
         Time.timeScale = 0;
         UICanvas.SetActive(false);
         YouWinCanvas.SetActive(true);

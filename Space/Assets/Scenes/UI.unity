@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.065482065, g: 0, b: 0.081131466, a: 1}
+  m_IndirectSpecularColor: {r: 0.0654452, g: 0, b: 0.08107678, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3220,7 +3220,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 932fd89395e1a8049b2de8d38dcfe6a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Test: []
+  WinSounds:
+  - {fileID: 8300000, guid: 0e2f21626073e1048a3453096f7d140e, type: 3}
+  PowerupSounds:
+  - {fileID: 8300000, guid: 4622edd0b96dc3044841f48c7854c56a, type: 3}
+  - {fileID: 8300000, guid: 8308807cbb0697241907d3f28186734a, type: 3}
+  - {fileID: 8300000, guid: ddce3619f1997f74cbaf6c703a88b783, type: 3}
+  DeathSounds:
+  - {fileID: 8300000, guid: 92e50b7bc79baec4891b8734aaf0b879, type: 3}
   BGM:
   - {fileID: 8300000, guid: cd6c4a18a966b9146a46cca528f4b650, type: 3}
   - {fileID: 8300000, guid: 1d13ba112073a5a48b56445d80f64b86, type: 3}

@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public AudioClip[] Test;
+    public AudioClip[] WinSounds;
+    public AudioClip[] PowerupSounds;
+    public AudioClip[] DeathSounds;
     public AudioClip[] BGM;
     public AudioClip[] MainMenuBGM;
 
@@ -76,6 +78,25 @@ public class SoundManagerScript : MonoBehaviour
             bgmSource.PlayOneShot(bgmSource.clip);
             yield return new WaitForSeconds(audioClip.length);
         }
+    }
+    public void PlayPowerupSound()
+    {
+        sfxSource.clip = PowerupSounds[Random.Range(0, PowerupSounds.Length)];
+        sfxSource.volume = SFXVolume;
+        sfxSource.PlayOneShot(sfxSource.clip);
+    }
+    public void PlayWinSound()
+    {
+        sfxSource.clip = WinSounds[Random.Range(0, WinSounds.Length)];
+        sfxSource.volume = SFXVolume;
+        sfxSource.PlayOneShot(sfxSource.clip);
+
+    }
+    public void PlayDeathSounds()
+    {
+        sfxSource.clip = DeathSounds[Random.Range(0, DeathSounds.Length)];
+        sfxSource.volume = SFXVolume;
+        sfxSource.PlayOneShot(sfxSource.clip);
     }
     private void Awake()
     {
