@@ -17,7 +17,7 @@ public class SettingsMenuScript : MonoBehaviour
 
     public Button backButton;
 
-
+    public GameObject MainMenuCanvas;
 
     public GameObject settingsCanvas;
 

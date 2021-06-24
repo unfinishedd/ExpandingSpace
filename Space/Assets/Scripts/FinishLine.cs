@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FinishLine : MonoBehaviour
 {
+    public GameObject UICanvas;
+    public GameObject YouWinCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +19,9 @@ public class FinishLine : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        
+        Time.timeScale = 0;
+        UICanvas.SetActive(false);
+        YouWinCanvas.SetActive(true);
+       
     }
 }
