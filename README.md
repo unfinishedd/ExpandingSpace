@@ -77,14 +77,6 @@ _Please note: Removing projects from the list within the Hub does not delete the
 
 </br>
 
-Enjoy the game and let us know what you love about our game.
-
-</br>
-
----
-
-</br>
-
 ## Credits
 
 Created by [@unfinishedd](https://www.unfinishedd.nl) </br>
@@ -109,7 +101,7 @@ Game artists: Falko, Kyle, Osa.
 
 </br>
 
-- Feel free to contact us!
+- Enjoy the game and let us know what you love about our game.
 
 </br>
 
