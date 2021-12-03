@@ -5,7 +5,7 @@
 </br>
 
 ## What is Da Space Race?
-
+_General info:_
 - Da Space Race is the newest version of Space Racing games with better features.\
 This game is an adventurous Space Invaded edition.\
 Race through space while enjoying the view.
@@ -18,7 +18,8 @@ This is a revolution for the space racing market.
 
 </br>
 
-## Features:
+## Features
+_Project includes these features:_
 
 - Amazing movement
 - Great music
@@ -53,9 +54,9 @@ _Project is created with:_
 </br>
 
 ## Setup
+_Set the game up:_
 
 ```
-
 1 - Download the Game from the github.
 2 - Download the Unity hub.
 3 - Launch the Unity Hub.
@@ -64,7 +65,6 @@ _Project is created with:_
 6 - The project will now appear in the project list.
 7 - The project has now been successfully added to the Unity Hub and is ready to be opened in the Editor.
 8 - Enjoy the experience.
-
 ```
 
 </br>
@@ -102,12 +102,6 @@ Game artists: Falko, Kyle, Osa.
 </br>
 
 [![Trello](https://img.shields.io/badge/-trello-2e343f?logo=Trello&logoColor=white&style=for-the-badge)](https://trello.com/b/2GnuBi8x/expanding-space)
-
-</br>
-
-Developers: Daniel, Jayden, George en Unfinishedd
-</br>
-Game artists: Falko, Kyle, Osa.
 
 </br>
 
